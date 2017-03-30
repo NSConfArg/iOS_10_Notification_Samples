@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		351EF7611E73365900F9778F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351EF7601E73365900F9778F /* AppDelegate.swift */; };
+		351EF7631E73365900F9778F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351EF7621E73365900F9778F /* ViewController.swift */; };
+		351EF7661E73365900F9778F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 351EF7641E73365900F9778F /* Main.storyboard */; };
+		351EF7681E73365900F9778F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 351EF7671E73365900F9778F /* Assets.xcassets */; };
+		351EF76B1E73365900F9778F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 351EF7691E73365900F9778F /* LaunchScreen.storyboard */; };
+		3556B6181E75D85400A2A11D /* gol.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3556B6171E75D85400A2A11D /* gol.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		351EF7811E736B4600F9778F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		351EF75D1E73365900F9778F /* SportNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		351EF7601E73365900F9778F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		351EF7621E73365900F9778F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		351EF7651E73365900F9778F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		351EF7671E73365900F9778F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		351EF76A1E73365900F9778F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		351EF76C1E73365900F9778F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3556B6171E75D85400A2A11D /* gol.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gol.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		351EF75A1E73365900F9778F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		351EF7541E73365900F9778F = {
+			isa = PBXGroup;
+			children = (
+				351EF75F1E73365900F9778F /* SportNotification */,
+				351EF75E1E73365900F9778F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		351EF75E1E73365900F9778F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				351EF75D1E73365900F9778F /* SportNotification.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		351EF75F1E73365900F9778F /* SportNotification */ = {
+			isa = PBXGroup;
+			children = (
+				351EF7601E73365900F9778F /* AppDelegate.swift */,
+				351EF7621E73365900F9778F /* ViewController.swift */,
+				351EF7641E73365900F9778F /* Main.storyboard */,
+				351EF7671E73365900F9778F /* Assets.xcassets */,
+				3556B6171E75D85400A2A11D /* gol.gif */,
+				351EF7691E73365900F9778F /* LaunchScreen.storyboard */,
+				351EF76C1E73365900F9778F /* Info.plist */,
+			);
+			path = SportNotification;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		351EF75C1E73365900F9778F /* SportNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 351EF76F1E73365900F9778F /* Build configuration list for PBXNativeTarget "SportNotification" */;
+			buildPhases = (
+				351EF7591E73365900F9778F /* Sources */,
+				351EF75A1E73365900F9778F /* Frameworks */,
+				351EF75B1E73365900F9778F /* Resources */,
+				351EF7811E736B4600F9778F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SportNotification;
+			productName = SportNotification;
+			productReference = 351EF75D1E73365900F9778F /* SportNotification.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		351EF7551E73365900F9778F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Silvina Roldan";
+				TargetAttributes = {
+					351EF75C1E73365900F9778F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = F72NGYWYWY;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 351EF7581E73365900F9778F /* Build configuration list for PBXProject "SportNotification" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 351EF7541E73365900F9778F;
+			productRefGroup = 351EF75E1E73365900F9778F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				351EF75C1E73365900F9778F /* SportNotification */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		351EF75B1E73365900F9778F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351EF76B1E73365900F9778F /* LaunchScreen.storyboard in Resources */,
+				3556B6181E75D85400A2A11D /* gol.gif in Resources */,
+				351EF7681E73365900F9778F /* Assets.xcassets in Resources */,
+				351EF7661E73365900F9778F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		351EF7591E73365900F9778F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351EF7631E73365900F9778F /* ViewController.swift in Sources */,
+				351EF7611E73365900F9778F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		351EF7641E73365900F9778F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				351EF7651E73365900F9778F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		351EF7691E73365900F9778F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				351EF76A1E73365900F9778F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		351EF76D1E73365900F9778F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		351EF76E1E73365900F9778F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		351EF7701E73365900F9778F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F72NGYWYWY;
+				INFOPLIST_FILE = SportNotification/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.silvinaroldan.SportNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		351EF7711E73365900F9778F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F72NGYWYWY;
+				INFOPLIST_FILE = SportNotification/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.silvinaroldan.SportNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		351EF7581E73365900F9778F /* Build configuration list for PBXProject "SportNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				351EF76D1E73365900F9778F /* Debug */,
+				351EF76E1E73365900F9778F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		351EF76F1E73365900F9778F /* Build configuration list for PBXNativeTarget "SportNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				351EF7701E73365900F9778F /* Debug */,
+				351EF7711E73365900F9778F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 351EF7551E73365900F9778F /* Project object */;
+}
