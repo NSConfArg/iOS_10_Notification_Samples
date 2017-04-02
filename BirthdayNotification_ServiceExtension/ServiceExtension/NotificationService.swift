@@ -35,6 +35,7 @@ class NotificationService: UNNotificationServiceExtension {
               let attachment = try! UNNotificationAttachment(identifier: attachmentString,
                                                              url: url, options: [UNNotificationAttachmentOptionsTypeHintKey : kUTTypePNG])
               bestAttemptContent.attachments = [attachment]
+              bestAttemptContent.categoryIdentifier = "birthdayCategory"
             }
             contentHandler(bestAttemptContent)
         })
