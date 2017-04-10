@@ -28,12 +28,13 @@ class NotificationViewController: UIViewController, UNNotificationContentExtensi
     }
     
     if attachment.url.startAccessingSecurityScopedResource() {
-      let imageData = try? Data.init(contentsOf: attachment.url)
-      if let img = imageData {
-        imageView.image = UIImage(data: img)
+      do {
+        let imageData = try Data.init(contentsOf: attachment.url)
+        imageView.image = UIImage(data: imageData)
+        attachment.url.stopAccessingSecurityScopedResource()
+      } catch {
+        print("Error accessing url content")
       }
-      attachment.url.stopAccessingSecurityScopedResource()
     }
   }
-  
 }

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -45,19 +45,15 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="serpentine.png" translatesAutoresizingMaskIntoConstraints="NO" id="heG-qH-WpU">
                                 <rect key="frame" x="81" y="21" width="55" height="128"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="70" id="2L9-VT-X2z"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="20" id="Kx4-3R-ucr"/>
-                                    <constraint firstAttribute="width" constant="55" id="WGU-dQ-PsH"/>
-                                    <constraint firstAttribute="height" constant="128" id="vcl-l9-iMv"/>
+                                    <constraint firstAttribute="height" constant="128" id="qpL-Qp-bQd"/>
+                                    <constraint firstAttribute="width" constant="55" id="xS5-aV-G77"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="serpentine.png" translatesAutoresizingMaskIntoConstraints="NO" id="aLy-ut-95N">
-                                <rect key="frame" x="20" y="75" width="55" height="128"/>
+                                <rect key="frame" x="20" y="75" width="55" height="70"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="3i0-KL-qNu"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="20" id="FVW-Ny-dgT"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="70" id="kfz-Ra-Ef7"/>
-                                    <constraint firstAttribute="width" constant="55" id="uiX-Pa-Xli"/>
+                                    <constraint firstAttribute="height" constant="70" id="PXx-Q0-TU6"/>
+                                    <constraint firstAttribute="width" constant="55" id="Xec-Bn-9kr"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="😁" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pTL-c3-COZ">
@@ -73,17 +69,17 @@
                         </subviews>
                         <color key="backgroundColor" red="0.24313725490196078" green="0.38431372549019605" blue="0.71372549019607845" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="heG-qH-WpU" firstAttribute="leading" secondItem="aLy-ut-95N" secondAttribute="trailing" constant="6" id="4ht-i3-aED"/>
-                            <constraint firstItem="aLy-ut-95N" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" constant="20" id="61E-Pj-9td"/>
+                            <constraint firstItem="heG-qH-WpU" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="21" id="0rb-cD-LVD"/>
                             <constraint firstAttribute="trailing" secondItem="Wer-aX-NmE" secondAttribute="trailing" constant="20" id="9qz-XB-fcs"/>
-                            <constraint firstItem="aLy-ut-95N" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="75" id="AUw-kf-Ea6"/>
                             <constraint firstItem="fWo-FE-hyS" firstAttribute="centerY" secondItem="S3S-Oj-5AN" secondAttribute="centerY" id="B0o-Qd-cLi"/>
+                            <constraint firstItem="heG-qH-WpU" firstAttribute="leading" secondItem="aLy-ut-95N" secondAttribute="trailing" constant="6" id="Hts-aW-DbA"/>
                             <constraint firstItem="FKl-LY-JtV" firstAttribute="top" secondItem="QC2-zX-A25" secondAttribute="bottom" id="MTT-Dt-vHi"/>
                             <constraint firstItem="QC2-zX-A25" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" id="XbL-oF-DiF"/>
                             <constraint firstItem="pTL-c3-COZ" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="80" id="iBS-nf-hn1"/>
-                            <constraint firstItem="heG-qH-WpU" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="21" id="k23-pK-Gmx"/>
+                            <constraint firstItem="aLy-ut-95N" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" constant="20" id="la8-D7-dmE"/>
                             <constraint firstItem="Wer-aX-NmE" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="20" id="moY-VR-uD7"/>
                             <constraint firstItem="fWo-FE-hyS" firstAttribute="centerX" secondItem="S3S-Oj-5AN" secondAttribute="centerX" id="qRB-9D-MDu"/>
+                            <constraint firstItem="aLy-ut-95N" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="75" id="skN-cS-t6s"/>
                             <constraint firstItem="Wer-aX-NmE" firstAttribute="leading" secondItem="pTL-c3-COZ" secondAttribute="trailing" constant="40" id="ynw-WT-H17"/>
                         </constraints>
                     </view>

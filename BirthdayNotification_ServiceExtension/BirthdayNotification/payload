@@ -1,12 +1,12 @@
 {
-"aps":{
-"alert": {
-"title":"Thanks for coming!!",
-"subtitle": "It was a great party",
-"body": "04/23"
-},
-"category": "sport",
-"mutable-content": 1
-},
-"attachment-url": "http://imagizer.imageshack.us/v2/688x387q90/r/924/g4DrTf.jpg"
+ "aps":{
+    "alert":{
+       "title":"Thanks for coming!!",
+       "subtitle":"It was a great party",
+       "body":"04/23"
+    },
+    "category":"myNotificationCategory",
+    "mutable-content":1
+ },
+ "attachment-url":"http://imagizer.imageshack.us/v2/688x387q90/r/924/g4DrTf.jpg"
 }
