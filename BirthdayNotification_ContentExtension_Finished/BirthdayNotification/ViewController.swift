@@ -18,7 +18,9 @@ class ViewController: UIViewController {
       if granted {
         print("Notifications access granted")
       } else {
-        print("Error: \(error?.localizedDescription)")
+        if let error = error {
+          print("Error: \(error.localizedDescription)")
+        }
       }
     })
   }
@@ -40,28 +42,30 @@ class ViewController: UIViewController {
       completion(false)
       return
     }
-    
-    let attachment = try! UNNotificationAttachment(identifier: "invitation", url: imageURL, options: .none)
-    
-    let notification = UNMutableNotificationContent()
-    notification.title = "Come to my Birthday"
-    notification.subtitle = "It will be a great party"
-    notification.body = "04/23 at 10:00 PM"
-    notification.attachments = [attachment]
-    
-    notification.categoryIdentifier = "myNotification"
-    
-    let notificationTrigger = UNTimeIntervalNotificationTrigger(timeInterval: inSeconds, repeats: false)
-    
-    let request = UNNotificationRequest(identifier: "birthdayInvitation", content: notification, trigger: notificationTrigger)
-    
-    UNUserNotificationCenter.current().add(request) { (error) in
-      if let error = error {
-        print("Error: \(error.localizedDescription)")
-        completion(false)
-      } else {
-        completion(true)
+    do {
+      let attachment = try UNNotificationAttachment(identifier: "invitation", url: imageURL, options: .none)
+      let notification = UNMutableNotificationContent()
+      notification.title = "Come to my Birthday"
+      notification.subtitle = "It will be a great party"
+      notification.body = "04/23 at 10:00 PM"
+      notification.attachments = [attachment]
+      
+      notification.categoryIdentifier = "myNotificationCategory"
+      
+      let notificationTrigger = UNTimeIntervalNotificationTrigger(timeInterval: inSeconds, repeats: false)
+      
+      let request = UNNotificationRequest(identifier: "birthdayInvitation", content: notification, trigger: notificationTrigger)
+      
+      UNUserNotificationCenter.current().add(request) { (error) in
+        if let error = error {
+          print("Error: \(error.localizedDescription)")
+          completion(false)
+        } else {
+          completion(true)
+        }
       }
+    } catch {
+      print("Error adding attachment")
     }
   }
   

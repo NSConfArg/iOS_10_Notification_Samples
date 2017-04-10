@@ -42,21 +42,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
   }
   
-  //  private func configureUserNotification() {
-  //
-  //    let goAction = UNNotificationAction(identifier: "goAction", title: "Going", options: [])
-  //    let notGoingAction = UNNotificationAction(identifier: "notGoingAction", title: "Not Going", options: [])
-  //
-  //    let category = UNNotificationCategory(identifier: "myNotificationCategory", actions: [goAction,notGoingAction], intentIdentifiers: [], options: [])
-  //    UNUserNotificationCenter.current().setNotificationCategories([category])
-  //  }
-  
 }
 
 extension AppDelegate : UNUserNotificationCenterDelegate {
-  
   func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
-
-      completionHandler(.alert)
+    completionHandler(.alert)
   }
 }
