@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Dnu-31-Rom">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Dnu-31-Rom">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -65,20 +65,6 @@
                                     <action selector="listNotification:" destination="Dnu-31-Rom" eventType="touchUpInside" id="eGW-W7-bf8"/>
                                 </connections>
                             </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="duT-aI-WpD">
-                                <rect key="frame" x="51" y="602" width="273" height="39"/>
-                                <color key="backgroundColor" red="0.027450980390000001" green="0.7843137255" blue="0.52549019610000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="273" id="715-qy-Ivf"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="Remove Notifications">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="RemoveNotifications:" destination="Dnu-31-Rom" eventType="touchUpInside" id="fgF-Bt-eoW"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dfx-rZ-drH">
                                 <rect key="frame" x="51" y="493" width="273" height="35"/>
                                 <color key="backgroundColor" red="0.027450980390000001" green="0.7843137255" blue="0.52549019610000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -99,12 +85,10 @@
                             <constraint firstAttribute="trailing" secondItem="MzO-RJ-CSD" secondAttribute="trailing" id="04d-no-uKu"/>
                             <constraint firstItem="MzO-RJ-CSD" firstAttribute="top" secondItem="gJR-s5-f1d" secondAttribute="bottom" constant="42" id="0kN-0O-CZd"/>
                             <constraint firstItem="MzO-RJ-CSD" firstAttribute="leading" secondItem="Mhf-so-VUr" secondAttribute="leading" id="2Cm-jo-X3H"/>
-                            <constraint firstItem="duT-aI-WpD" firstAttribute="top" secondItem="nTc-2S-gSL" secondAttribute="bottom" constant="19" id="Csh-8q-Jba"/>
                             <constraint firstItem="dfx-rZ-drH" firstAttribute="centerX" secondItem="Mhf-so-VUr" secondAttribute="centerX" id="ZYr-N7-LVF"/>
                             <constraint firstItem="nTc-2S-gSL" firstAttribute="centerX" secondItem="Mhf-so-VUr" secondAttribute="centerX" id="evI-jB-c0I"/>
                             <constraint firstItem="dfx-rZ-drH" firstAttribute="top" secondItem="MzO-RJ-CSD" secondAttribute="bottom" constant="20" id="ftw-Yh-X4v"/>
                             <constraint firstItem="nTc-2S-gSL" firstAttribute="top" secondItem="dfx-rZ-drH" secondAttribute="bottom" constant="16" id="sZa-TL-YFm"/>
-                            <constraint firstItem="duT-aI-WpD" firstAttribute="centerX" secondItem="Mhf-so-VUr" secondAttribute="centerX" id="tDu-ud-0IW"/>
                         </constraints>
                     </view>
                     <connections>

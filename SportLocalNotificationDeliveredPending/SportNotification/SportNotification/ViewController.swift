@@ -61,12 +61,8 @@ class ViewController: UIViewController, UNUserNotificationCenterDelegate, UITabl
     }
     
     group.notify(queue: DispatchQueue.main) {
-        self.tableView.reloadData()
+      self.tableView.reloadData()
     }
-  }
-  
-  @IBAction func RemoveNotifications(_ sender: UIButton) {
-    UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: ["sport_notification"])
   }
   
   @IBAction func scheduleNotification(_ sender: UIButton) {
@@ -81,16 +77,19 @@ class ViewController: UIViewController, UNUserNotificationCenterDelegate, UITabl
     guard let imageURL = Bundle.main.url(forResource: image, withExtension: "gif") else {
       return
     }
-    
-    let attachment = try! UNNotificationAttachment(identifier: "gol", url: imageURL, options: .none)
-    content.attachments = [attachment]
-    
-    let notificationTrigger = UNTimeIntervalNotificationTrigger(timeInterval: 0.01,                                                        repeats: false)
-    
-    let request = UNNotificationRequest(identifier: "sport_notification", content: content, trigger: notificationTrigger
-    )
-    
-    UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
+    do {
+      let attachment = try UNNotificationAttachment(identifier: "gol", url: imageURL, options: .none)
+      content.attachments = [attachment]
+      
+      let notificationTrigger = UNTimeIntervalNotificationTrigger(timeInterval: 3.0,                                                        repeats: false)
+      
+      let request = UNNotificationRequest(identifier: "sport_notification", content: content, trigger: notificationTrigger
+      )
+      
+      UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
+    } catch {
+      print("Error adding attachment")
+    }
   }
   
   func numberOfSections(in tableView: UITableView) -> Int {
